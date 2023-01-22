@@ -99,11 +99,19 @@ main {
 #author-container {
     display: inline-block;
     vertical-align: top;
-    margin-left: 3%;
-    margin-right:3%;
+    margin-left: 1%;
+    margin-right:1%;
     width: 10%;
 }
 
+#author-container a{
+    text-decoration: none;
+    color: black;
+}
+
+#author-container a:hover{
+    color: blue;
+}
 #author-image{
     height: 2px;
     width:2px;
@@ -142,8 +150,7 @@ aside {
     word-spacing: 0.1rem;
 }
 
-input,
-textarea {
+input,textarea {
     margin-bottom: 15px;
     padding: 4px 10px;
     background-color: #f7f7f7;
@@ -154,7 +161,20 @@ textarea {
     font-size: 1.05rem;
     color: #000000;
 }
+#search-form{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
 
+#search-input{
+    display:inline;
+    width:80%;
+}
+
+#search img {
+    width: 18px;
+    vertical-align: middle
+}
 button[type="submit"] {
     background-color: #1a1a1a;
     font-size: 0.9rem;
@@ -163,6 +183,16 @@ button[type="submit"] {
     letter-spacing: 0.1rem;
     line-height: 1;
     padding: 12px 18px;
+    margin-bottom:30px;
+}
+
+#search button {
+    width: 12%;
+    margin-left: -4px;
+    padding: 7px 0 6px;
+    border-radius: 0 5px 5px 0;
+    line-height: 1.6;
+    background-color: #000000;
 }
 
 button[type="submit"]:hover {
